@@ -5,7 +5,7 @@ export const EXPERIENCES: Experience[] = [
     id: "invisor",
     companyName: "Invisor Global Education Pvt Ltd",
     companyLogo:
-      "https://media.licdn.com/dms/image/v2/C560BAQE9yHT2Ir5QQw/company-logo_200_200/company-logo_200_200/0/1630650949837?e=1762387200&v=beta&t=tpCHQbDLFwy3WkCAzLakM7nGUY8lpVXtQ72CKL9wx6U",
+      "https://play-lh.googleusercontent.com/xYVh2EbgypQFaciM-2YidCsQP_IiBVGpVDbEgn6XSdrt9uDkdoyH_oE-mZE2ildTTw=w240-h480",
     positions: [
       {
         id: "20f8bfe5-b6a3-4b0d-ac2f-6fccd50d417e",
