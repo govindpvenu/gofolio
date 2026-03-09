@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "A minimal portfolio.",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "preview": "next build --turbopack && next start ",
     "lint": "eslint",
@@ -46,7 +46,6 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.0",
     "@tailwindcss/postcss": "^4.1.13",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20.14.12",
