@@ -9,7 +9,7 @@ export function NotFound({ className }: { className?: string }) {
     <div
       className={cn(
         "flex h-[calc(100svh-5.5rem)] flex-col items-center justify-center",
-        className
+        className,
       )}
     >
       <h1 className="mt-8 mb-6 font-mono text-8xl font-medium text-center">

@@ -8,7 +8,7 @@ import { ThemeProvider } from "next-themes";
 
 const Toaster = dynamic(
   () => import("@/components/ui/sonner").then((mod) => mod.Toaster),
-  { ssr: false }
+  { ssr: false },
 );
 
 export function Providers({ children }: { children: React.ReactNode }) {

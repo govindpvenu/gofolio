@@ -8,7 +8,7 @@ import { SiteHeader } from "@/components/site-header";
 import { fontMono, fontSans } from "@/lib/fonts";
 
 const ScrollTop = dynamic(() =>
-  import("@/components/scroll-top").then((mod) => mod.ScrollTop)
+  import("@/components/scroll-top").then((mod) => mod.ScrollTop),
 );
 
 export default function RootLayout({

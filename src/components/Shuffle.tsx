@@ -103,7 +103,7 @@ const Shuffle: React.FC<ShuffleProps> = ({
         if (hoverHandlerRef.current && ref.current) {
           ref.current.removeEventListener(
             "mouseenter",
-            hoverHandlerRef.current
+            hoverHandlerRef.current,
           );
           hoverHandlerRef.current = null;
         }
@@ -118,7 +118,7 @@ const Shuffle: React.FC<ShuffleProps> = ({
           wrappersRef.current.forEach((wrap) => {
             const inner = wrap.firstElementChild as HTMLElement | null;
             const orig = inner?.querySelector(
-              '[data-orig="1"]'
+              '[data-orig="1"]',
             ) as HTMLElement | null;
             if (orig && wrap.parentNode)
               wrap.parentNode.replaceChild(orig, wrap);
@@ -220,7 +220,7 @@ const Shuffle: React.FC<ShuffleProps> = ({
           const kids = Array.from(strip.children) as HTMLElement[];
           for (let i = 1; i < kids.length - 1; i++) {
             kids[i].textContent = scrambleCharset.charAt(
-              Math.floor(Math.random() * scrambleCharset.length)
+              Math.floor(Math.random() * scrambleCharset.length),
             );
           }
         });
@@ -231,7 +231,7 @@ const Shuffle: React.FC<ShuffleProps> = ({
           const strip = w.firstElementChild as HTMLElement;
           if (!strip) return;
           const real = strip.querySelector(
-            '[data-orig="1"]'
+            '[data-orig="1"]',
           ) as HTMLElement | null;
           if (!real) return;
           strip.replaceChildren(real);
@@ -280,7 +280,7 @@ const Shuffle: React.FC<ShuffleProps> = ({
               force3D: true,
               stagger: animationMode === "evenodd" ? stagger : 0,
             },
-            at
+            at,
           );
           if (colorFrom && colorTo)
             tl.to(targets, { color: colorTo, duration, ease }, at);
@@ -304,14 +304,14 @@ const Shuffle: React.FC<ShuffleProps> = ({
                 ease,
                 force3D: true,
               },
-              d
+              d,
             );
             if (colorFrom && colorTo)
               tl.fromTo(
                 strip,
                 { color: colorFrom },
                 { color: colorTo, duration, ease },
-                d
+                d,
               );
           });
         }
@@ -377,7 +377,7 @@ const Shuffle: React.FC<ShuffleProps> = ({
         triggerOnHover,
       ],
       scope: ref,
-    }
+    },
   );
 
   const baseTw =
@@ -394,7 +394,7 @@ const Shuffle: React.FC<ShuffleProps> = ({
   return React.createElement(
     Tag,
     { ref: ref, className: classes, style: commonStyle },
-    text
+    text,
   );
 };
 

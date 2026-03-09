@@ -20,7 +20,7 @@ class SoundManager {
 
   playClick() {
     this.playAudio(
-      "/click.wav" // Source: iOS UI Sounds
+      "/click.wav", // Source: iOS UI Sounds
     );
   }
 }
