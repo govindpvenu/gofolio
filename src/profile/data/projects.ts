@@ -2,12 +2,12 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
-    id: "govindpvenudotme",
-    title: "govindpvenu.me",
+    id: "gofolio",
+    title: "gofolio",
     period: {
       start: "10.2025",
     },
-    link: "https://github.com/govindpvenu/govindpvenu.me",
+    link: "https://github.com/govindpvenu/gofolio",
     skills: [
       "Next.js 15",
       "Tailwind CSS v4",
