@@ -94,7 +94,7 @@ export function TechStack() {
   return (
     <Panel id="stack">
       <PanelHeader>
-        <PanelTitle>Stack</PanelTitle>
+        <PanelTitle>Go-to Stack</PanelTitle>
       </PanelHeader>
 
       <PanelContent

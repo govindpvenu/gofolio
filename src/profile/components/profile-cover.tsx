@@ -13,7 +13,7 @@ export function ProfileCover() {
     >
       <Shuffle
         key={1}
-        text="Govind"
+        text="Hello World"
         ease="power2.out"
         duration={1.5}
         shuffleTimes={1}

@@ -2,7 +2,7 @@ import { SimpleTooltip } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 
 import { USER } from "../data/user";
-// Removed FlipSentences from registry for aggressive cleanup
+import { TextFlip } from "../../components/text-flip";
 import { VerifiedIcon } from "./verified-icon";
 
 export function ProfileHeader() {
@@ -43,11 +43,18 @@ export function ProfileHeader() {
               <VerifiedIcon className="size-[0.6em] translate-y-px text-info select-none" />
             </SimpleTooltip>
           </h1>
-
           <div className="h-12 border-t border-edge py-1 pl-4 sm:h-auto">
-            <p className="line-clamp-1 text-sm text-muted-foreground sm:line-clamp-2">
-              {USER.bio}
-            </p>
+            <TextFlip
+              className="font-mono text-sm text-balance text-muted-foreground"
+              variants={{
+                initial: { y: -10, opacity: 0 },
+                animate: { y: -1, opacity: 1 },
+                exit: { y: 10, opacity: 0 },
+              }}
+              interval={2.5}
+            >
+              {USER.flipSentences}
+            </TextFlip>
           </div>
         </div>
       </div>

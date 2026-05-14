@@ -3,7 +3,7 @@ import type { Experience } from "../types/experiences";
 export const EXPERIENCES: Experience[] = [
   {
     id: "invisor",
-    companyName: "Invisor Global Education Pvt Ltd",
+    companyName: "Invisor",
     companyLogo:
       "https://play-lh.googleusercontent.com/xYVh2EbgypQFaciM-2YidCsQP_IiBVGpVDbEgn6XSdrt9uDkdoyH_oE-mZE2ildTTw=w240-h480",
     positions: [
@@ -24,65 +24,13 @@ export const EXPERIENCES: Experience[] = [
           "Express.js",
           "PostgreSQL",
           "Git",
-          "Teamwork",
-          "Research",
-          "Problem-solving",
         ],
         isExpanded: true,
       },
     ],
     isCurrentEmployer: true,
   },
-  //   {
-  //     id: "freelance",
-  //     companyName: "Freelance",
-  //     positions: [
-  //       {
-  //         id: "f0becfba-057d-40db-b252-739e1654faa1",
-  //         title: "Full-stack Developer",
-  //         employmentPeriod: {
-  //           start: "2018",
-  //           end: "2020",
-  //         },
-  //         employmentType: "Part-time",
-  //         description: `- Built an order management website with real-time delivery tracking.
-  // - Developed an e-commerce site for bird's nest products.
-  // - Created a map to display monitoring station data.
-  // - Designed a customizable WordPress landing page.`,
-  //         icon: "code",
-  //         skills: [
-  //           "Laravel",
-  //           "React",
-  //           "Express.js",
-  //           "Socket.IO",
-  //           "MongoDB",
-  //           "Firebase",
-  //           "WordPress",
-  //           "Docker",
-  //           "NGINX",
-  //         ],
-  //       },
-  //       {
-  //         id: "0eecdfcb-028d-41f4-93e9-1269ba7eff7e",
-  //         title: "Graphic & UI/UX Designer",
-  //         employmentPeriod: {
-  //           start: "2018",
-  //           end: "2019",
-  //         },
-  //         employmentType: "Part-time",
-  //         description: "Designed logos, posters, ads, and UI.",
-  //         icon: "design",
-  //         skills: [
-  //           "Creativity",
-  //           "UI/UX Design",
-  //           "Graphic Design",
-  //           "Sketch",
-  //           "Adobe Photoshop",
-  //           "Adobe Illustrator",
-  //         ],
-  //       },
-  //     ],
-  //   },
+
   {
     id: "education",
     companyName: "Education",
@@ -95,21 +43,8 @@ export const EXPERIENCES: Experience[] = [
           end: "03.2023",
         },
         icon: "education",
-        description: ``,
-        skills: [
-          "C++",
-          "Java",
-          "Python",
-          "Data Structures",
-          "Algorithms",
-          "Advanced Databases",
-          "Systems Design",
-          "Distributed Systems",
-          "Software Engineering",
-          "Self-learning",
-          "Teamwork",
-          "Presentation",
-        ],
+        description: `SCERT: Computer Science`,
+        skills: [],
       },
       {
         id: "70131ed8-36d9-4e54-8c78-eaed18240eca",

@@ -2,6 +2,11 @@ import type { TechStack } from "../types/tech-stack";
 
 export const TECH_STACK: TechStack[] = [
   {
+    key: "typescript",
+    title: "TypeScript",
+    categories: ["Language"],
+  },
+  {
     key: "nextdotjs",
     title: "Next.js",
     categories: ["Framework"],
@@ -18,11 +23,10 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Framework"],
   },
   {
-    key: "typescript",
-    title: "TypeScript",
-    categories: ["Language"],
+    key: "shadcnui",
+    title: "shadcn/ui",
+    categories: ["Library"],
   },
-
   {
     key: "express",
     title: "Express",
@@ -43,5 +47,10 @@ export const TECH_STACK: TechStack[] = [
     key: "postgresql",
     title: "PostgreSQL",
     categories: ["Database"],
+  },
+  {
+    key: "expo",
+    title: "Expo",
+    categories: ["Framework"],
   },
 ];

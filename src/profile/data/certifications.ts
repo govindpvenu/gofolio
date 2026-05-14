@@ -2,6 +2,16 @@ import type { Certification } from "../types/certifications";
 
 export const CERTIFICATIONS: Certification[] = [
   {
+    title: "Problem Solving (Basic)",
+    issuer: "HackerRank",
+    issuerIconName: "hackerrank",
+    issueDate: "2026-04-02",
+    credentialID: "9486b9a67e7a",
+    credentialURL: "hthttps://www.hackerrank.com/certificates/9486b9a67e7a",
+    // credentialURL:
+    //   "https://nextjs.org/learn/certificate?course=dashboard-app&user=32498&certId=dashboard-app-32498-1753172182999",
+  },
+  {
     title: "Next.js App Router Fundamentals",
     issuer: "Vercel",
     issuerIconName: "vercel",

@@ -7,12 +7,13 @@ export const USER: User = {
   username: "govindpvenu",
   gender: "male",
   pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
+  bio: "I know how to center a div.",
   flipSentences: [
-    "Creating with code. Small details matter.",
-    "Full-Stack Engineer",
-    "UI/UX Designer",
-    "Typescript Developer",
+    "I know how to center a div.",
+    "I build things for the web.",
+    "I love open source.",
+    "I'm working as full-stack dev.",
+    "I'm learning to build in go.",
   ],
   address: "Kochi, Kerala, India",
   phoneNumber: "KzkxIDc5OTQ2NTI4NDA=", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
@@ -23,7 +24,7 @@ export const USER: User = {
     {
       title: "Associate - Full Stack Developer",
       company: "Invisor",
-      website: "https://invisor.in",
+      website: "https://www.linkedin.com/company/invisorglobal",
     },
   ],
   about: `
