@@ -14,7 +14,7 @@ import { TechStack } from "@/profile/components/tech-stack";
 export default function Page() {
   return (
     <>
-      <div className="mx-auto md:max-w-3xl">
+      <div className="mx-auto md:max-w-3xl *:[[id]]:scroll-mt-22">
         <ProfileCover />
         <ProfileHeader />
         <Separator />

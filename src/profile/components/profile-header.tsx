@@ -1,8 +1,8 @@
 import { SimpleTooltip } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 
-import { USER } from "../data/user";
 import { TextFlip } from "../../components/text-flip";
+import { USER } from "../data/user";
 import { VerifiedIcon } from "./verified-icon";
 
 export function ProfileHeader() {
