@@ -43,7 +43,7 @@ export const EXPERIENCES: Experience[] = [
           end: "03.2023",
         },
         icon: "education",
-        description: `SCERT: Computer Science`,
+        description: `Computer Science`,
         skills: [],
       },
       {

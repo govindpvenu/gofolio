@@ -37,8 +37,15 @@ export function SiteHeader() {
 
         <DesktopNav items={MAIN_NAV} />
 
-        <div className="flex items-center gap-2">
-          <LinkPreview url="https://rxresu.me/govindpvenu/resume">
+        <div className="flex items-center gap-2 ">
+          <LinkPreview
+            className="py-2"
+            width={128}
+            height={180}
+            isStatic
+            imageSrc="/resume-preview.webp"
+            url="https://rxresu.me/govindpvenu/resume"
+          >
             Resume
           </LinkPreview>
           <NavItemGitHub />

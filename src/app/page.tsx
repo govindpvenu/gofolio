@@ -34,17 +34,16 @@ export default function Page() {
         <TechStack />
         <Separator />
 
-        <LeetcodeStats />
-        <Separator />
-
         <Experiences />
         <Separator />
 
-        {/* TODO: add projects */}
         <Projects />
         <Separator />
 
         <Certifications />
+        <Separator />
+
+        <LeetcodeStats />
         <Separator />
       </div>
     </>

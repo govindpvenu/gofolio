@@ -1,10 +1,10 @@
 import type { NavItem } from "@/types/nav";
 
 export const MAIN_NAV: NavItem[] = [
-  {
-    title: "Gofolio",
-    href: "/",
-  },
+  // {
+  //   title: "Gofolio",
+  //   href: "/",
+  // },
 ];
 
 export const GITHUB_USERNAME = "govindpvenu";
