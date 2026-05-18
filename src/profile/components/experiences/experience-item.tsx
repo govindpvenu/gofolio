@@ -13,9 +13,10 @@ export function ExperienceItem({ experience }: { experience: Experience }) {
             <Image
               src={experience.companyLogo}
               alt={experience.companyName}
-              width={24}
-              height={24}
-              className="rounded-full"
+              width={300}
+              height={300}
+              quality={100}
+              className="rounded-sm"
               unoptimized
               aria-hidden
             />
