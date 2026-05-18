@@ -28,11 +28,13 @@ export const USER: User = {
     },
   ],
   about: `
-Hello, World! I am Govind — a Full-Stack Web Developer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+I’m a self-taught full-stack developer passionate about building meaningful products.
 
-With 2+ years of experience, I specialize in building high-quality web applications using Next.js, React, TypeScript, Node.js, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+I started coding at 15, for making games —which sparked my interest in technology. Since then, I’ve been continuously learning, building, and evolving my skill set. By 18, I landed my first full-time developer role.
 
-Let's connect and collaborate!
+I believe learning by doing is the most effective way to master any skill. That’s why I chose a self-taught path—focusing on real-world projects, solving practical problems, and gaining hands-on experience rather than following a traditional route.
+
+I’m always open to connecting with like-minded people, collaborating on interesting ideas, and exploring new opportunities.
   `,
   avatar: "https://avatars.githubusercontent.com/u/100788322?v=4",
   keywords: [
