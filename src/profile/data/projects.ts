@@ -2,6 +2,29 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
+    id: "entegram",
+    title: "entegram",
+    period: {
+      start: "05.2026",
+      end: "05.2025",
+    },
+    link: "https://github.com/govindpvenu/entegram",
+    skills: [
+      "TypeScript",
+      "React Native / Expo",
+      "Expo Router",
+      "AsyncStorage",
+      "EAS Build",
+    ],
+    description: ` Entegram opens Instagram inside the app and lets you choose which distracting parts of the Instagram web experience should be hidden.
+ * **Focus-friendly Instagram WebView** that opens Instagram inside the app.
+* **Distraction filters** to hide Reels, Explore, Home Feed, Suggestions, and Stories.
+* **Runtime script injection** applies filters locally inside the WebView.
+* **LockIn mode** to password-protect filters from being turned off casually.
+`,
+    logo: "/projects-logo/entegram.png",
+  },
+  {
     id: "gofolio",
     title: "gofolio",
     period: {
