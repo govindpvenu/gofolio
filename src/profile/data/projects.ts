@@ -25,6 +25,33 @@ export const PROJECTS: Project[] = [
     logo: "/projects-logo/entegram.png",
   },
   {
+    id: "justbetweenus",
+    title: "justbetweenus",
+    period: {
+      start: "12.2025",
+      end: "01.2026",
+    },
+    link: "https://github.com/govindpvenu/justbetweenus",
+    skills: [
+      "Next.js 16",
+      "Bun",
+      "Elysia.js",
+      "TanStack Query",
+      "Upstash Redis",
+      "PWA",
+      "WebSockets",
+      "AES-256-GCM",
+      "E2EE",
+    ],
+    description: `A modern real-time chat app with auto-expiring rooms. [See how it works](https://www.tldraw.com/f/xl7XIQ3W8BzCjcOixfIwb?d=v-468.-11453.2465.1475.page)
+* **E2E Encryption:** Messages are encrypted in the browser before leaving your device.
+* **Keys stay private:** Room keys are shared through the URL fragment, not via server.
+* **No accounts or tracking:** No signups, no personal profile data collection.
+* **Short-lived chats:** Rooms expire after 10 minutes or can be destroyed manually.
+`,
+    logo: "/projects-logo/justbetweenus.ico",
+  },
+  {
     id: "gofolio",
     title: "gofolio",
     period: {
