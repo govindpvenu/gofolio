@@ -31,8 +31,7 @@ export const EXPERIENCES: Experience[] = [
 
 → Updated legacy systems by improving code quality.
 
-→ Supported interns by creating learning roadmaps, sharing resources, and reviewing side projects.
-`,
+→ Supported interns by creating learning roadmaps, sharing resources, and reviewing side projects.`,
         skills: [
           "TypeScript",
           "Next.js",
@@ -41,7 +40,7 @@ export const EXPERIENCES: Experience[] = [
           "PostgreSQL",
           "AWS",
         ],
-        isExpanded: true,
+        isExpanded: false,
       },
     ],
     isCurrentEmployer: true,
@@ -79,7 +78,7 @@ This role gave me the opportunity to work with real clients.`,
           "Express.js",
           "Git",
         ],
-        isExpanded: true,
+        isExpanded: false,
       },
     ],
     isCurrentEmployer: false,
