@@ -49,6 +49,36 @@ export const PROJECTS: Project[] = [
     logo: "/projects-logo/gofolio.png",
   },
   {
+    id: "glitchess",
+    title: "glitchess",
+    period: {
+      start: "03.2024",
+      end: "04.2024",
+    },
+    link: "https://github.com/govindpvenu/glitchess",
+    skills: [
+      "TypeScript",
+      "React + Vite",
+      "Tailwind CSS",
+      "TanStack Router",
+      "Redux",
+      "react-chessboard",
+      "chess.js",
+      "Node.js + Express",
+      "Socket.IO",
+      "MongoDB + Mongoose",
+    ],
+    description: `A full-stack multiplayer chess platform with real-time gameplay, user authentication, and player rankings.
+* **Real-time online chess** with WebSocket matchmaking.
+* **Multiple modes**: online, local, and vs computer.
+* **Full chess rules** with validation, timers, and move history.
+* **Profiles & rankings** with stats, ratings, and leaderboard.
+* **Secure auth** with OTP, Google OAuth, bcrypt, and JWT.
+* **Clean UI** with themes, sounds, panels, and notifications.
+`,
+    logo: "/projects-logo/glitchess.png",
+  },
+  {
     id: "guza",
     title: "guza",
     period: {
