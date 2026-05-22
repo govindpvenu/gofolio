@@ -2,6 +2,32 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
+    id: "getmycv",
+    title: "getmycv",
+    period: {
+      start: "11.2025",
+      end: "01.2026",
+    },
+    link: "https://github.com/govindpvenu/getmycv",
+
+    skills: [
+      "Next.js 16",
+      "Intercepting Routes",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Better Auth",
+      "Resend",
+      "Vercel Blob",
+    ],
+    description: `A modern resume link manager for uploading, sharing, and tracking PDF resumes.
+* **Role-specific CVs:** Manage multiple resume versions for different job roles.
+* **Stable links:** Share clean username-based URLs which will be updated live.
+* **Visibility control:** Keep drafts private or publish when they are ready.
+* **Analytics:** Track views and downloads in a chart view.
+`,
+    logo: "/projects-logo/getmycv.ico",
+  },
+  {
     id: "entegram",
     title: "entegram",
     period: {
