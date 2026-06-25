@@ -2,6 +2,34 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
+    id: "getcited",
+    title: "getcited",
+    period: {
+      start: "06.2026",
+      end: "07.2026",
+    },
+    link: "https://github.com/govindpvenu/getcited",
+
+    skills: [
+      "Next.js 16",
+      "OpenRouter",
+      "PostgreSQL",
+      "Vercel Cron",
+      "AI SDK",
+      "AI Elements",
+      "Drizzle ORM",
+      "Better Auth",
+    ],
+
+    description: `A full-stack AI prompt tracking platform to analyze how different AI models mention, cite, and describe a brand.
+* **Multi-model prompt runs:** Integrated OpenRouter to run prompts across OpenAI-labelled and Gemini-labelled models and store individual responses.
+* **Brand analytics:** Developed analytics for prompt runs, model responses, brand mentions, citation rates, sentiment, and 14-day mention trends.
+* **Batch testing:** Added batch prompt testing for comparing up to five brands against the same prompt.
+* **Scheduled tracking:** Built daily and weekly prompt tracking with active/paused states, run history, and automated cron-based processing.
+`,
+    logo: "/projects-logo/getcited3.png",
+  },
+  {
     id: "getmycv",
     title: "getmycv",
     period: {
@@ -32,7 +60,7 @@ export const PROJECTS: Project[] = [
     title: "entegram",
     period: {
       start: "05.2026",
-      end: "05.2025",
+      end: "05.2026",
     },
     link: "https://github.com/govindpvenu/entegram",
     skills: [
