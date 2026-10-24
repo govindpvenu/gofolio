@@ -160,8 +160,35 @@ export const PROJECTS: Project[] = [
     logo: "/projects-logo/gofolio.png",
   },
   {
+    id: "guza",
+    title: "guza",
+    period: {
+      start: "09.2023",
+      end: "10.2023",
+    },
+    link: "https://github.com/govindpvenu/guza",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "EJS",
+      "Razorpay",
+      "JWT Auth",
+      "MVC Architecture",
+    ],
+    description: `A full-stack e-commerce web application built with Node.js, Express, and MongoDB.
+* **Authentication** with JWT sessions, OTP verification, and bcrypt password hashing.
+* **Product management** with CRUD, inventory control, image upload, banners, and coupons.
+* **Admin dashboard** for sales reports, orders, customers, and analytics.
+* **Full shopping flow** with cart, wishlist, addresses, orders, and cancellation.
+* **Razorpay integration** with coupons, wallet payments, and multiple payment methods.
+* **Advanced product browsing** with search, filters, pagination, image gallery, and zoom.
+`,
+    logo: "/projects-logo/guza.svg",
+  },
+  {
     id: "glitchess",
-    title: "glitchess",
+    title: "glitchess (archive)",
     period: {
       start: "03.2024",
       end: "04.2024",
@@ -188,32 +215,5 @@ export const PROJECTS: Project[] = [
 * **Clean UI** with themes, sounds, panels, and notifications.
 `,
     logo: "/projects-logo/glitchess.png",
-  },
-  {
-    id: "guza",
-    title: "guza",
-    period: {
-      start: "09.2023",
-      end: "10.2023",
-    },
-    link: "https://github.com/govindpvenu/guza",
-    skills: [
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "EJS",
-      "Razorpay",
-      "JWT Auth",
-      "MVC Architecture",
-    ],
-    description: `A full-stack e-commerce web application built with Node.js, Express, and MongoDB.
-* **Authentication** with JWT sessions, OTP verification, and bcrypt password hashing.
-* **Product management** with CRUD, inventory control, image upload, banners, and coupons.
-* **Admin dashboard** for sales reports, orders, customers, and analytics.
-* **Full shopping flow** with cart, wishlist, addresses, orders, and cancellation.
-* **Razorpay integration** with coupons, wallet payments, and multiple payment methods.
-* **Advanced product browsing** with search, filters, pagination, image gallery, and zoom.
-`,
-    logo: "/projects-logo/guza.svg",
   },
 ];
