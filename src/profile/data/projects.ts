@@ -2,6 +2,36 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
+    id: "glichess",
+    title: "glichess",
+    period: {
+      start: "10.2026",
+      end: "11.2026",
+    },
+    link: "https://github.com/govindpvenu/glichess",
+
+    skills: [
+      "TypeScript",
+      "React 19 + Vite",
+      "Express 5",
+      "Socket.IO",
+      "WebRTC",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Better Auth",
+      "Playwright",
+      "Docker",
+    ],
+
+    description: `A realtime chess platform with built-in video, voice, and chat on one screen.
+* **Server-authoritative games:** Move validation, clocks, and every end condition run on the server.
+* **Video & voice:** Peer-to-peer WebRTC calls signalled over Socket.IO, with Cloudflare TURN fallback.
+* **Glicko-2 ratings:** Rated games for signed-in players, with rematches, invite links, and quick pairing.
+* **Guest or Google sign-in:** Guests can play instantly and link to a Google account later.
+`,
+    logo: "/projects-logo/glichess.png",
+  },
+  {
     id: "getcited",
     title: "getcited",
     period: {
@@ -27,7 +57,7 @@ export const PROJECTS: Project[] = [
 * **Batch testing:** Added batch prompt testing for comparing up to five brands against the same prompt.
 * **Scheduled tracking:** Built daily and weekly prompt tracking with active/paused states, run history, and automated cron-based processing.
 `,
-    logo: "/projects-logo/getcited3.png",
+    logo: "/projects-logo/getcited.png",
   },
   {
     id: "getmycv",
@@ -121,7 +151,7 @@ export const PROJECTS: Project[] = [
       "Motion",
       "Vercel",
     ],
-    description: `A minimal dev portfolio with a clean, modern design inspired by Vercel’s design system. 
+    description: `A minimal dev portfolio with a clean, modern design inspired by Vercel’s design system.
   - Content managed through simple array updates
   - Spam-protected email & contact number
   - GitHub contribution graph and LeetCode stats.
@@ -176,7 +206,7 @@ export const PROJECTS: Project[] = [
       "JWT Auth",
       "MVC Architecture",
     ],
-    description: `A full-stack e-commerce web application built with Node.js, Express, and MongoDB. 
+    description: `A full-stack e-commerce web application built with Node.js, Express, and MongoDB.
 * **Authentication** with JWT sessions, OTP verification, and bcrypt password hashing.
 * **Product management** with CRUD, inventory control, image upload, banners, and coupons.
 * **Admin dashboard** for sales reports, orders, customers, and analytics.
