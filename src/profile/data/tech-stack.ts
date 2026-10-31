@@ -1,6 +1,12 @@
 import type { TechStack } from "../types/tech-stack";
 
 export const TECH_STACK: TechStack[] = [
+
+  {
+    key: "go",
+    title: "Golang",
+    categories: ["Language"],
+  },
   {
     key: "typescript",
     title: "TypeScript",
@@ -47,6 +53,11 @@ export const TECH_STACK: TechStack[] = [
     key: "postgresql",
     title: "PostgreSQL",
     categories: ["Database"],
+  },
+  {
+    key: "docker",
+    title: "Docker",
+    categories: ["Tool"],
   },
   {
     key: "expo",
