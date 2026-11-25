@@ -2,14 +2,28 @@ import type { Certification } from "../types/certifications";
 
 export const CERTIFICATIONS: Certification[] = [
   {
+    title: "Practice Go",
+    issuer: "CodeChef",
+    issuerIconName: "codechef",
+    issueDate: "2026-06-08",
+    credentialID: "aaf4dd1",
+    credentialURL: "https://www.codechef.com/certificates/public/aaf4dd1",
+  },
+  {
+    title: "JavaScript (Basic)",
+    issuer: "HackerRank",
+    issuerIconName: "hackerrank",
+    issueDate: "2026-06-08",
+    credentialID: "a99fa9e75972",
+    credentialURL: "https://www.hackerrank.com/certificates/a99fa9e75972",
+  },
+  {
     title: "Problem Solving (Basic)",
     issuer: "HackerRank",
     issuerIconName: "hackerrank",
     issueDate: "2026-04-02",
     credentialID: "9486b9a67e7a",
-    credentialURL: "hthttps://www.hackerrank.com/certificates/9486b9a67e7a",
-    // credentialURL:
-    //   "https://nextjs.org/learn/certificate?course=dashboard-app&user=32498&certId=dashboard-app-32498-1753172182999",
+    credentialURL: "https://www.hackerrank.com/certificates/9486b9a67e7a",
   },
   {
     title: "Next.js App Router Fundamentals",
