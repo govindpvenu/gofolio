@@ -2,10 +2,18 @@ import type { Certification } from "../types/certifications";
 
 export const CERTIFICATIONS: Certification[] = [
   {
+    title: "Go (Basic)",
+    issuer: "HackerRank",
+    issuerIconName: "hackerrank",
+    issueDate: "2026-11-25",
+    credentialID: "6dcae7bf8827",
+    credentialURL: "https://www.hackerrank.com/certificates/6dcae7bf8827",
+  },
+  {
     title: "Practice Go",
     issuer: "CodeChef",
     issuerIconName: "codechef",
-    issueDate: "2026-06-08",
+    issueDate: "2026-11-24",
     credentialID: "aaf4dd1",
     credentialURL: "https://www.codechef.com/certificates/public/aaf4dd1",
   },
